@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "C# Methods"
+date:   2023-06-10 22:08:49 +0800
+categories: C# basics
+---
+
+As discussed in "Anatomy of a C# class" a class can have a Main method.
+It can have many, many other methods.
+A method is defined as follows
+
+modifiers (public/static) outputType [Name] ( [parameter 1],[parameter 2] ...)
+{
+
+}
+
+The code between the two curly braces following the method are executed every time you 'call'
+the function. When the code 'returns' a value, it immediately exists the method.
+
+Examples:
+{% highlight csharp %}
+public class Hello
+{
+    string name = "Adam";
+
+    public void SayHello() // No output no input
+    {
+        System.Console.WriteLine("Goodbye, World!");
+    }
+
+    public String TellMeYourName() // Outputs a string, no input
+    {
+        return name; // This
+        name =
+    }
+
+    public void SetName(string name_) // No output, takes a string as input
+    {
+        name = _name;
+    }
+
+    public int Multipy(int a, int b) // Outputs an int, takes 2 ints as parameters
+    {
+        return a * b;
+    }
+
+}
+{% endhighlight %}
+
+
+

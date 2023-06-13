@@ -5,6 +5,10 @@ date:   2023-06-11 22:08:49 +0800
 categories: C# basics
 ---
 C# is an object oriented language. This means that everything is an object.
+Data is an object. Behaviours and methods are part of an object. For example, in a game,
+a Players, Enemies, Projectiles are all defined as objects. In a business application, 
+Person, Address, Job could be defined as objects.
+
 An object is defined in a class. C# allows multiple classes in one file, but
 generally, the file has the same name as the class it contains.
 
