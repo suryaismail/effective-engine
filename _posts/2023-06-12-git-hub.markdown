@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Create a repository in GitHub"
+date:   2023-06-12 22:08:49 +0800
+categories: GitHub
+---
+
+This outlines the steps for create a repository for collaboration on GitHub
+
+1. Create a github account at
+https://github.com/
+
+2. Download GitHub Desktop
+https://desktop.github.com/
+
+3. Create your Unity project as usual
+
+4. In GitHub Desktop, create a new repository
+  - Choose the folder ONE UP from where your Unity project is
+  - Give your repository the same name as your Unity project
+  - Select ‘Unity’ in the ‘Git Ignore’ section
+  - Click Create Repository
+  - Click yes for 'Initialize Git LFS'
+  - Check the 'History' tab to see the list of Unity files
+![Unity directory structure](/images/unity-directory-structure.jpg)
+![Create new repository](/images/create-new-repository.jpg)
+![Initialize Git LFS](/images/initialize-git-lfs.jpg)
+![GitHub Initial History](/images/github-initial-history.jpg)
+
+5. Click on 'Publish Repository'
+  - Check your github account to see the new repository
+![Publicsh repository](/images/publish-repository.jpg)
+
+
