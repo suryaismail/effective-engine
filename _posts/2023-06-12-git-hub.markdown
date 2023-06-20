@@ -22,13 +22,13 @@ https://desktop.github.com/
   - Click Create Repository
   - Click yes for 'Initialize Git LFS'
   - Check the 'History' tab to see the list of Unity files
-![Unity directory structure]({{ site.baseurl }}/assets/images/unity-directory-structure.jpg)
-![Create new repository]({{ site.baseurl }}/assets/images/create-new-repository.jpg)
-![Initialize Git LFS]({{ site.baseurl }}/assets/images/initialize-git-lfs.jpg)
-![GitHub Initial History]({{ site.baseurl }}/assets/images/github-initial-history.jpg)
+![Unity directory structure]({{ site.baseurl }}/assets/images/unity-directory-structure.png)
+![Create new repository]({{ site.baseurl }}/assets/images/create-new-repository.png)
+![Initialize Git LFS]({{ site.baseurl }}/assets/images/initialize-git-lfs.png)
+![GitHub Initial History]({{ site.baseurl }}/assets/images/github-initial-history.png)
 
 5. Click on 'Publish Repository'
   - Check your github account to see the new repository
-![Publicsh repository]({{ site.baseurl }}/assets/images/publish-repository.jpg)
+![Publicsh repository]({{ site.baseurl }}/assets/images/publish-repository.png)
 
 
