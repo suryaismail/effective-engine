@@ -5,6 +5,8 @@ date:   2023-06-12 22:08:49 +0800
 categories: GitHub
 ---
 
+### Creating a repository
+
 This outlines the steps for create a repository for collaboration on GitHub
 
 1. Create a github account at
@@ -32,3 +34,11 @@ https://desktop.github.com/
 ![Publicsh repository]({{ site.baseurl }}/assets/images/publish-repository.png)
 
 
+### Committing and pushing code
+
+Committing code means saving a version of it in your *local* repository. This means
+you can alwasy go back to it at a later time, and you save a history of it.
+But, since it's only on your local machine, other people can't see it.
+
+Publishing and pushing code means sending your changes to a *remote* repository. There
+are many repositories, but for us, we use GitHub as our repository.
