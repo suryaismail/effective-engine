@@ -9,6 +9,7 @@ There are many types of loops but we'll focus on for and foreach loops
 
 ### For loops
 For loops have this format
+
 for (initial; condition; step) {
 }
 
@@ -64,6 +65,7 @@ for (int i = 0; i < array.Length; i++) {
 
 ### Foreach loops
 Foreach loops have this format
+
 foreach (type var in arrayName) {
 }
 
