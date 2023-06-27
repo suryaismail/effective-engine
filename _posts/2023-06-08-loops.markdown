@@ -1,0 +1,80 @@
+---
+layout: post
+title:  "C# For and Foreach"
+date:   2023-06-08 22:08:49 +0800
+categories: C# basics
+---
+
+There are many types of loops but we'll focus on for and foreach loops
+
+### For loops
+For loops have this format
+for (initial; condition; step) {
+}
+
+For loops have a variable that is used in the loop. The initial, condition and step
+are used to control the value of the variable.
+The *initial* sets the first value of the variable.
+The *condition* tells the loop when to stop.
+The *step* describes how change the variable each time you go through the loop.
+
+{% highlight csharp %}
+// Standard for loop
+for (int i = 0; i < 5; i++) {
+    Console.Write(i + ", ");
+}
+// Output: 0, 1, 2, 3, 4,
+
+// Different initial
+for (int i = 1; i < 5; i++) {
+    Console.Write(i + ", ");
+}
+// Output: 1, 2, 3, 4,
+
+// Different step
+for (int i = 0; i < 5; i += 2) {
+    Console.Write(i + ", ");
+}
+// Output: 0, 2, 4,
+
+// Different condition
+for (int i = 0; i <= 5; i++) {
+    Console.Write(i + ", ");
+}
+// Output: 0, 1, 2, 3, 4, 5,
+
+{% endhighlight %}
+
+For loops can be used over arrays and list, though foreach loops are more common
+{% highlight csharp %}
+int [] array = {3, 6, 7};
+for (int i = 0; i < array.Length; i++) {
+    Console.WriteLine("Value at " + i + " is " + array[i]);
+    // We use a for loop, so we can print
+    //  the index (position)
+    //  and the value
+}
+// Output:
+//   Value at 0 is 3
+//   Value at 1 is 6
+//   Value at 2 is 7
+
+{% endhighlight %}
+
+
+### Foreach loops
+Foreach loops have this format
+foreach (type var in arrayName) {
+}
+
+Each time the code iterates through the loop, the var will be set to the next
+element in the array.
+
+{% highlight csharp %}
+int [] array = {3, 6, 7, 8};
+foreach (int i in array) {
+    Console.Write(i + " ,");
+}
+// Output: 3, 6, 7, 8,
+
+{% endhighlight %}
