@@ -39,24 +39,15 @@ https://desktop.github.com/
   ![Initialize Git LFS]({{ site.baseurl }}/assets/images/initialize-git-lfs.png)
 
   - Check the 'History' tab to see the list of Unity files
-![GitHub Initial History]({{ site.baseurl }}/assets/images/github-initial-history.png)
+  ![GitHub Initial History]({{ site.baseurl }}/assets/images/github-initial-history.png)
 
 5. Click on 'Publish Repository'
   - Check your github account to see the new repository
-![Publicsh repository]({{ site.baseurl }}/assets/images/publish-repository.png)
+![Publish repository]({{ site.baseurl }}/assets/images/publish-repository.png)
 
-### Committing and pushing code
+### Getting the project from the remote repository for the first time
 
-Committing code means saving a version of it in your *local* repository. This means
-you can alwasy go back to it at a later time, and you save a history of it.
-But, since it's only on your local machine, other people can't see it.
-
-Publishing and pushing code means sending your changes to a *remote* repository. There
-are many repositories, but for us, we use GitHub as our repository.
-
-### Getting the projcet from the remote repository for the first time
-
-The first time you access a remote repository form the github website, go to the
+The first time you access a remote repository from the github website, go to the
 webpage of the repository (https://github.com/<username>/<repoName>). Then click
 'Open with Github Desktop'
 ![Open with Github Desktop]({{ site.baseurl }}/assets/images/github-clone.png)
@@ -84,21 +75,24 @@ webpage of the repository (https://github.com/<username>/<repoName>). Then click
 code that someone else has already changed. 
 ![Errors]({{ site.baseurl }}/assets/images/github-error.png)
 
-4. Github Desktop has many ways to fix things if two people try to change the same file
+5. Github Desktop has many ways to fix things if two people try to change the same file
  (google 'git stash' and 'git merge'). But the simplest way is to discard your changes,
  then pull the changes from the remote repository.
-![Errors]({{ site.baseurl }}/assets/images/github-discard-changes.png)
+![Discard changes]({{ site.baseurl }}/assets/images/github-discard-changes.png)
 
 You can copy (backup) your changes into another directory, then copy them back into your
 project after you're done with the pull.
 
-Sometimes you may see errors when you pull. This happens when you're trying to pull/commit
-code that someone else has already changed
-![Errors]({{ site.baseurl }}/assets/images/github-error.png)
+### Committing and pushing code
 
-### Opening the project in Unity
+Committing code means saving a version of it in your *local* repository. This means
+you can always go back to it at a later time, and you save a history of it.
+But, since it's only on your local machine, other people can't see it.
 
-1. After you've cloned ()
+Publishing or pushing code means sending your changes to the *remote* repository
+(on the Github server).
+
+
 
 
 
