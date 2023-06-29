@@ -27,7 +27,7 @@ https://desktop.github.com/
 3. Create your Unity project as usual
 
 4. In GitHub Desktop, create a new repository
-  - Choose the folder ONE UP from where your Unity project is
+  - Choose the parent folder, ONE UP from where your Unity project is
   ![Unity directory structure]({{ site.baseurl }}/assets/images/unity-directory-structure.png)
 
   - Give your repository the same name as your Unity project
