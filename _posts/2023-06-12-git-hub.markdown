@@ -71,7 +71,7 @@ webpage of the repository (https://github.com/<username>/<repoName>). Then click
 3. If the changes look ok, go ahead and pull the changes into your local repository
 ![Pull]({{ site.baseurl }}/assets/images/github-pull.png)
 
-4. Sometimes you may see errors when you pull. This happens when you're trying to pull/commit
+4. Sometimes you may see errors when you pull. This happens when you're trying to pull
 code that someone else has already changed. 
 ![Errors]({{ site.baseurl }}/assets/images/github-error.png)
 
@@ -92,7 +92,19 @@ But, since it's only on your local machine, other people can't see it.
 Publishing or pushing code means sending your changes to the *remote* repository
 (on the Github server).
 
+1. To commit, check your changes in the commit tab. If you're happy with the changes,
+fill in a summary and description of your changes, then hit the 'Commit to main' button
+![Local changes]({{ site.baseurl }}/assets/images/github-local-changes.png)
 
+2. After committing, click 'Push origin'
+![Push changes]({{ site.baseurl }}/assets/images/github-push.png)
 
+3. Sometimes you may see errors when you try to push. This happens when the code you're
+trying to push conflicts with code that someone else already changed
+  - Backup your changes
+  - Follow the steps to discard your local changes
+  - Pull the latest changes from the remote host
+  - Copy your changes back into the project
+  - You should now be able to push
 
 
