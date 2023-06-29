@@ -97,6 +97,7 @@ fill in a summary and description of your changes, then hit the 'Commit to main'
 ![Local changes]({{ site.baseurl }}/assets/images/github-local-changes.png)
 
 2. After committing, click 'Push origin'
+You can commit many times before you decide your changes are good enough to push.
 ![Push changes]({{ site.baseurl }}/assets/images/github-push.png)
 
 3. Sometimes you may see errors when you try to push. This happens when the code you're
