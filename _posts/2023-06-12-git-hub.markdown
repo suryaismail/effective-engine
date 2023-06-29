@@ -5,6 +5,15 @@ date:   2023-06-12 22:08:49 +0800
 categories: GitHub
 ---
 
+### Github intro
+
+Github is a version control tool. It is very powerful, and has a lot of features
+for working collaboratively. We'll only use a few features for our project, so we can share
+code and make sure our work doesn't get lost.
+
+If you want to learn more, comprehensive documentation is available on the github website.
+https://docs.github.com/en/desktop
+
 ### Creating a repository
 
 This outlines the steps for create a repository for collaboration on GitHub
@@ -33,7 +42,6 @@ https://desktop.github.com/
   - Check your github account to see the new repository
 ![Publicsh repository]({{ site.baseurl }}/assets/images/publish-repository.png)
 
-
 ### Committing and pushing code
 
 Committing code means saving a version of it in your *local* repository. This means
@@ -42,3 +50,52 @@ But, since it's only on your local machine, other people can't see it.
 
 Publishing and pushing code means sending your changes to a *remote* repository. There
 are many repositories, but for us, we use GitHub as our repository.
+
+### Getting the projcet from the remote repository for the first time
+
+The first time you access a remote repository form the github website, go to the
+webpage of the repository (https://github.com/<username>/<repoName>). Then click
+'Open with Github Desktop'
+![Open with Github Desktop]({{ site.baseurl }}/assets/images/github-clone.png)
+
+### Opening the project in Unity for the first time
+
+1. Open Unity Hub, then select 'Open ->
+![Unity Open]({{ site.baseurl }}/assets/images/unity-add-project.png)
+
+### Fetching and pulling changes
+
+'Fetch' means to check for changes on the remote repository (on the github server).
+'Pull' means to copy to changes into your local repository on your computer
+
+1. Fetch from origin (from the remote github server), to see if any changes have been made
+![Fetch]({{ site.baseurl }}/assets/images/github-fetch.png)
+
+2. If there were changes, they will be shown in the changes tab.
+![Changes]({{ site.baseurl }}/assets/images/github-changes.png)
+
+3. If the changes look ok, go ahead and pull the changes into your local repository
+![Pull]({{ site.baseurl }}/assets/images/github-pull.png)
+
+4. Sometimes you may see errors when you pull. This happens when you're trying to pull/commit
+code that someone else has already changed. 
+![Errors]({{ site.baseurl }}/assets/images/github-error.png)
+
+4. Github Desktop has many ways to fix things if two people try to change the same file
+ (google 'git stash' and 'git merge'). But the simplest way is to discard your changes,
+ then pull the changes from the remote repository.
+![Errors]({{ site.baseurl }}/assets/images/github-discard-changes.png)
+
+You can copy (backup) your changes into another directory, then copy them back into your
+project after you're done with the pull.
+
+Sometimes you may see errors when you pull. This happens when you're trying to pull/commit
+code that someone else has already changed
+![Errors]({{ site.baseurl }}/assets/images/github-error.png)
+
+### Opening the project in Unity
+
+1. After you've cloned ()
+
+
+
