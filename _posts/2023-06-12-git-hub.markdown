@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Create a repository in GitHub"
+title:  "Working with GitHub"
 date:   2023-06-12 22:08:49 +0800
 categories: GitHub
 ---
@@ -28,14 +28,17 @@ https://desktop.github.com/
 
 4. In GitHub Desktop, create a new repository
   - Choose the folder ONE UP from where your Unity project is
+  ![Unity directory structure]({{ site.baseurl }}/assets/images/unity-directory-structure.png)
+
   - Give your repository the same name as your Unity project
   - Select ‘Unity’ in the ‘Git Ignore’ section
   - Click Create Repository
+  ![Create new repository]({{ site.baseurl }}/assets/images/create-new-repository.png)
+
   - Click yes for 'Initialize Git LFS'
+  ![Initialize Git LFS]({{ site.baseurl }}/assets/images/initialize-git-lfs.png)
+
   - Check the 'History' tab to see the list of Unity files
-![Unity directory structure]({{ site.baseurl }}/assets/images/unity-directory-structure.png)
-![Create new repository]({{ site.baseurl }}/assets/images/create-new-repository.png)
-![Initialize Git LFS]({{ site.baseurl }}/assets/images/initialize-git-lfs.png)
 ![GitHub Initial History]({{ site.baseurl }}/assets/images/github-initial-history.png)
 
 5. Click on 'Publish Repository'
@@ -60,7 +63,7 @@ webpage of the repository (https://github.com/<username>/<repoName>). Then click
 
 ### Opening the project in Unity for the first time
 
-1. Open Unity Hub, then select 'Open ->
+1. Open Unity Hub, then select 'Open -> Add project from disk'
 ![Unity Open]({{ site.baseurl }}/assets/images/unity-add-project.png)
 
 ### Fetching and pulling changes
